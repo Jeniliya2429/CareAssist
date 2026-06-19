@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route,NavLink }
 
 import UserList from "./components/UserList";
 import AddUser from "./components/AddUser";
+import CharacterList from "./components/CharacterList";
 
 function App() {
 
@@ -32,6 +33,8 @@ function App() {
                 <Route path="/users" element={<UserList />} />
 
                 <Route path="/add-user" element={<AddUser />} />
+
+                <Route path="/list" element={<CharacterList/>}></Route>
 
             </Routes>
 
